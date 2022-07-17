@@ -32,14 +32,25 @@
 
 ### Command Prompt
 - Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
+- Go to the repository by the command `cd learn-rebase`
+- Check out the feature branch by the command `git checkout`
 - Ensure you feature branch is checked out by the command `git branch`
 - Run the command `git rebase main`
 
 ### Source Tree
 - Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
-- Ensure the feature branch is checked out 
-- 
-
+- Open the folder in Source Tree
+- Change the UI to see remote branches
+- Check out the branch `feature-sds` by double clicking the label
+- Ensure branch `feature-sds` is checkout out
+- Right click on `main` branch label and choose `Rebase` option
 
 ### Visual Studio
+- Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
+- Open the folder in visual studio
+![image](open-visual-studio.png)
+- Check out branch `feature-sds`
+![image](checkout-branch-visual-studio.gif)
+- Rebase on to the main
+![image](rebase-visual-studio.gif)
 
