@@ -36,7 +36,8 @@
 - Run the command `git rebase main`
 
 ### Source Tree
-- Ensure the feature branch is checked out
+- Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
+- Ensure the feature branch is checked out 
 - 
 
 
