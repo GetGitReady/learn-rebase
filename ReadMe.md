@@ -40,10 +40,15 @@
 ### Source Tree
 - Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
 - Open the folder in Source Tree
-- Change the UI to see remote branches
-- Check out the branch `feature-sds` by double clicking the label
+![image](source-tree-open.png)
+- Ensure remote branches are shown
+![image](source-tree-show-remote-branches.png)
+- Check out the branch `feature-sds`
+![image](source-tree-checkout-branch.png)
 - Ensure branch `feature-sds` is checkout out
+![image](source-tree-ensure-branch-checked-out.png)
 - Right click on `main` branch label and choose `Rebase` option
+![image](source-tree-rebase.png)
 
 ### Visual Studio
 - Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
