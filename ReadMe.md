@@ -16,24 +16,28 @@
 ![image](after-rebase.jpg)
 - Branch “main” has commits “a”, “c”, “d”, …. in it (a is latest)
 - Branch “feature-sds” has commits “b”, “a”, “c”, ”d”,… in it (b is latest)
+
+## Benefits of Rebase
 - Testing the feature branch is more reliable
-- The probability of the merge conflict is not there after rebase
-- Needed esepecially 
+- The probability of the merge conflict is not there after rebase is not there
 
-- Feature branches are created based on the latest commit in main
-- When the feature development is in progress, there are other commits added to main by merges from other members
-- This situation could cause merge conflicts and makes the testing of feature less reliable
-- Rebasing soles this problem 
+## What is rebase
+- Changing the base commit of the a branch is rebasing
 
-What is rebase (example)
-- Feature branches are created based on the latest commit (say commit x) in main
-- When the feature development is in progress, there are other commits added to main by merges from other members
-- Lets say the latest commit on main is y
-- The feature branch is based on the commit x of main branch.
-- Changing the feature branch to be based on the commit y of the main branch is rebasing
+## Points to note
+- When rebased, force push is needed
+- Rebase only feature branches that are maintained by one dev, do not rebase main/develop branch
+
+## How to rebase
+
+### Command Prompt
+- Ensure you feature branch is checked out by the command `git branch`
+- Run the command `git rebase main`
+
+### Source Tree
+- Ensure the feature branch is checked out
+- 
 
 
-How to rebase
-
-Benefits of rebasing
+### Visual Studio
 
