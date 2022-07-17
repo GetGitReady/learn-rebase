@@ -3,19 +3,19 @@
 ## Introduciton
 
 ![image](before-rebase.jpg)
-- Branch “main” has commits “a”, “c”, “d”, …. in it (a is latest)
-- Branch “feature-sds” has commits “b”, “c”, ”d”,… in it (b is latest)
-- “feature-sds” was branched out of main when commit “a” was not made.
-- After commit “a” is made, “feature-sds” is not based on the latest main
+- Branch `main` has commits `a`, `c`, `d`, …. in it (`a` is latest)
+- Branch `feature-sds` has commits `b`, `c`, `d`,… in it (`b` is latest)
+- `feature-sds` was branched out of main when commit “a” was not made.
+- After commit `a` is made, “feature-sds” is not based on the latest main
 
 ## Problem
-- When feature-sds branch is tested, it doesn’t contain commit “a”, so there are chances the test behaves gives different result in main branch after merge
+- When feature-sds branch is tested, it doesn’t contain commit `a`, so there are chances the test behaves gives different result in main branch after merge
 - There may be merge conflicts while merging 
 
 ## Result of Rebase
-![image](after-rebase.jpg)
-- Branch “main” has commits “a”, “c”, “d”, …. in it (a is latest)
-- Branch “feature-sds” has commits “b”, “a”, “c”, ”d”,… in it (b is latest)
+![image](after-rebase.png)
+- Branch `main` has commits `a`, `c`, `d`, …. in it (`a` is latest)
+- Branch `feature-sds` has commits `b`, `a`, `c`, `d`,… in it (`b` is latest)
 
 ## Benefits of Rebase
 - Testing the feature branch is more reliable
