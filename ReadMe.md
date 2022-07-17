@@ -31,6 +31,7 @@
 ## How to rebase
 
 ### Command Prompt
+- Clone the repo by the command `git clone https://github.com/GetGitReady/learn-rebase.git`
 - Ensure you feature branch is checked out by the command `git branch`
 - Run the command `git rebase main`
 
